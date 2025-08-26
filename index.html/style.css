@@ -1,0 +1,90 @@
+p {
+    line-height: 1.8;
+}
+.newwords{
+    line-height: 1.2;
+    font-style: italic;
+    margin-top: 8px;
+    color: darkblue;
+}
+h3 {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: darkblue;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 2rem auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+h3 {
+    font-size: 14pt;
+    margin-top: 8mm;
+    margin-bottom: 4mm;
+}
+p {
+    font-size: 13pt;
+    margin-bottom: 8mm;
+    line-height: 2;
+}
+
+ruby {
+    ruby-position: under;
+}
+rt {
+    font-size: 0.8em;
+    font-family: "Helvetica Neue Light", "Noto Sans", sans-serif;
+    font-weight: 300;
+}
+button{
+    font-size: 1em;
+    margin-top: 3mm;
+
+}
+.word {
+    cursor: pointer;
+    color:blue;
+    text-decoration: underline;
+}
+#controls {
+    color: cadetblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+#rateSlider {
+    vertical-align: middle;
+    height: 1em;
+    width:100%;
+}
+#repeatCount {
+    width: 3em;
+    font-size: 1em; 
+    vertical-align: middle;
+}
+section, article{
+    max-width:100%;
+    word-wrap: break-word;
+}
+@media(max-width: 600px){
+    h1{
+        font-size:1.2rem;
+    }
+    p{
+        font-size:1rem;
+        line-height:1.5;
+    }
+    img{
+        max-width:100%;
+        margin: 0 auto 1rem auto;
+    }
+    #repeatCount{
+        width: 3.5em;
+    }
+}
